@@ -43,5 +43,6 @@ Verify table creation with `SELECT` statements and import each CSV file into its
 Confirm that each table contains the correct data by running `SELECT` queries.
 
 **Insights gathered from the data**
+
 Theater leads in campaigns, with plays being the dominant subcategory; Journalism ranks lowest in campaigns, with worldmusic as the smallest subcategory.
 Theater had the most successful outcomes among categories, with plays leading in subcategories.
