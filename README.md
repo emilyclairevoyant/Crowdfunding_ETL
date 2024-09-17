@@ -44,5 +44,10 @@ Confirm that each table contains the correct data by running `SELECT` queries.
 
 **Insights gathered from the data**
 
+Note: All graphs from our data analysis are stored in the Resources folder.
+
 Theater leads in campaigns, with plays being the dominant subcategory; Journalism ranks lowest in campaigns, with worldmusic as the smallest subcategory.
+
 Theater had the most successful outcomes among categories, with plays leading in subcategories.
+
+The US tops the list for successful campaigns.
