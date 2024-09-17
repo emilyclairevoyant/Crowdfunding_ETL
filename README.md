@@ -22,17 +22,17 @@ Export the DataFrame as `subcategory.csv` and upload it to your GitHub repositor
 
 2. Create the Campaign DataFrame
 Extract and transform the `crowdfunding.xlsx` data to build a campaign DataFrame with the following columns:
-cf_id, contact_id, company_name, description (formerly blurb), goal (converted to float), pledged (converted to float), outcome, backers_count, country, currency.
-launch_date (converted from launched_at to datetime format) and end_date (converted from deadline to datetime format).
+`cf_id`, `contact_id`, `company_name`, `description (formerly blurb)`, `goal (converted to float)`, `pledged (converted to float)`, `outcome`, `backers_count`, `country`, `currency`.
+`launch_date` (converted from launched_at to datetime format) and `end_date` (converted from deadline to datetime format).
 `category_id` and `subcategory_id` linked to the respective IDs in the category and subcategory DataFrames.
 Export the DataFrame as `campaign.csv` and upload it to your GitHub repository.
 
 3. Create the Contacts DataFrame
-Option 1: Import contacts.xlsx into a DataFrame, iterate over it, and:
+Option 1: Import `contacts.xlsx` into a DataFrame, iterate over it, and:
 Convert each row to a dictionary.
 Use a Python list comprehension to extract values for each row and create a new DataFrame.
 Split the name column into separate first and last name columns.
-Clean and export the DataFrame as contacts.csv and upload it to your GitHub repository.
+Clean and export the DataFrame as `contacts.csv` and upload it to your GitHub repository.
 
 4. Create the Crowdfunding Database
 Inspect the four CSV files and sketch an ERD , we have used Postgres.
