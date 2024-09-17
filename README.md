@@ -41,3 +41,7 @@ Save the schema as a Postgres file `(crowdfunding_db_schema.sql)` and upload it 
 Create a new Postgres database `(crowdfunding_db)` and create the tables in the correct order to manage foreign keys.
 Verify table creation with `SELECT` statements and import each CSV file into its corresponding SQL table.
 Confirm that each table contains the correct data by running `SELECT` queries.
+
+**Insights gathered from the data**
+Theater leads in campaigns, with plays being the dominant subcategory; Journalism ranks lowest in campaigns, with worldmusic as the smallest subcategory.
+Theater had the most successful outcomes among categories, with plays leading in subcategories.
